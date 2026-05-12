@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md Fahim Rahman | Environment & Research Professional</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Official portfolio of Md Fahim Rahman, an Environment & Research professional specializing in Soil, Water, and Environmental Science. Exploring sustainable solutions for global change.">
+    <meta name="keywords" content="Md Fahim Rahman, Soil Science, Environmental Science, Water Resource Management, Research Professional, Khulna University, Macquarie University, Portfolio, Sustainability">
+    <meta name="author" content="Md Fahim Rahman">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Md Fahim Rahman | Environment & Research Professional">
+    <meta property="og:description" content="Professional portfolio of Md Fahim Rahman. Expert in Soil, Water, and Environmental Science.">
+    <meta property="og:image" content="images/fahim1.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Md Fahim Rahman | Environment & Research Professional">
+    <meta property="twitter:description" content="Professional portfolio of Md Fahim Rahman. Expert in Soil, Water, and Environmental Science.">
+    <meta property="twitter:image" content="images/fahim1.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌱</text></svg>">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'sage': '#829c83',
+                        'moss': '#365314',
+                        'sky': '#f0f9ff',
+                        'earth': '#78350f',
+                        'paper': '#fdfcfb',
+                        'academic-blue': '#1e3a8a',
+                    },
+                    fontFamily: {
+                        serif: ['Merriweather', 'serif'],
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #fdfcfb; color: #374151; }
+        h1, h2, h3, h4 { font-family: 'Merriweather', serif; }
+        .section-padding { padding-top: 5rem; padding-bottom: 5rem; }
+        .nav-link { position: relative; }
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -4px;
+            left: 0;
+            background-color: #829c83;
+            transition: width 0.3s;
+        }
+        .nav-link:hover::after { width: 100%; }
+    </style>
+</head>
+<body class="bg-paper text-gray-800">
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-paper/90 backdrop-blur-md z-50 border-b border-sage/20">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex-shrink-0">
+                    <span class="text-lg sm:text-xl font-bold text-moss tracking-tight truncate max-w-[200px] sm:max-w-none block">Md Fahim Rahman</span>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8 text-sm font-medium uppercase tracking-wider">
+                        <a href="#hero" class="nav-link hover:text-sage transition-colors">Home</a>
+                        <a href="#about" class="nav-link hover:text-sage transition-colors">About</a>
+                        <a href="#education" class="nav-link hover:text-sage transition-colors">Education</a>
+                        <a href="#research" class="nav-link hover:text-sage transition-colors">Research</a>
+                        <a href="#video" class="nav-link hover:text-sage transition-colors">Video</a>
+                        <a href="#experience" class="nav-link hover:text-sage transition-colors">Experience</a>
+                        <a href="#skills" class="nav-link hover:text-sage transition-colors">Skills</a>
+                        <a href="#contact" class="nav-link hover:text-sage transition-colors">Contact</a>
+                    </div>
+                </div>
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-moss">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile menu, show/hide based on menu state. -->
+        <div id="mobile-menu" class="hidden md:hidden bg-paper border-t border-sage/10 px-4 py-4 space-y-2 origin-top transition-all duration-300">
+            <a href="#hero" class="block py-2 text-moss hover:text-sage font-medium">Home</a>
+            <a href="#about" class="block py-2 text-moss hover:text-sage font-medium">About</a>
+            <a href="#education" class="block py-2 text-moss hover:text-sage font-medium">Education</a>
+            <a href="#research" class="block py-2 text-moss hover:text-sage font-medium">Research</a>
+            <a href="#video" class="block py-2 text-moss hover:text-sage font-medium">Video</a>
+            <a href="#experience" class="block py-2 text-moss hover:text-sage font-medium">Experience</a>
+            <a href="#skills" class="block py-2 text-moss hover:text-sage font-medium">Skills</a>
+            <a href="#contact" class="block py-2 text-moss hover:text-sage font-medium">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="min-h-screen flex items-center pt-20 relative overflow-hidden">
+        <!-- Background Slider -->
+        <div class="absolute inset-0 z-0">
+            <div id="hero-slider" class="w-full h-full relative">
+                <div class="slider-img absolute inset-0 bg-cover bg-center transition-opacity duration-1000 opacity-100" style="background-image: url('album/WhatsApp Image 2026-05-09 at 2.12.29 PM.jpeg');"></div>
+                <div class="slider-img absolute inset-0 bg-cover bg-center transition-opacity duration-1000 opacity-0" style="background-image: url('album/WhatsApp Image 2026-05-09 at 2.12.31 PM (1).jpeg');"></div>
+                <div class="slider-img absolute inset-0 bg-cover bg-center transition-opacity duration-1000 opacity-0" style="background-image: url('album/WhatsApp Image 2026-05-09 at 2.12.31 PM.jpeg');"></div>
+                <div class="slider-img absolute inset-0 bg-cover bg-center transition-opacity duration-1000 opacity-0" style="background-image: url('album/WhatsApp Image 2026-05-09 at 2.12.32 PM (1).jpeg');"></div>
+                <div class="slider-img absolute inset-0 bg-cover bg-center transition-opacity duration-1000 opacity-0" style="background-image: url('album/WhatsApp Image 2026-05-09 at 2.12.32 PM (2).jpeg');"></div>
+                <div class="slider-img absolute inset-0 bg-cover bg-center transition-opacity duration-1000 opacity-0" style="background-image: url('album/WhatsApp Image 2026-05-09 at 2.12.32 PM.jpeg');"></div>
+                <div class="slider-img absolute inset-0 bg-cover bg-center transition-opacity duration-1000 opacity-0" style="background-image: url('album/WhatsApp Image 2026-05-09 at 2.12.33 PM (2).jpeg');"></div>
+                <div class="slider-img absolute inset-0 bg-cover bg-center transition-opacity duration-1000 opacity-0" style="background-image: url('album/WhatsApp Image 2026-05-09 at 2.12.33 PM.jpeg');"></div>
+                <div class="slider-img absolute inset-0 bg-cover bg-center transition-opacity duration-1000 opacity-0" style="background-image: url('album/WhatsApp Image 2026-05-09 at 2.12.34 PM.jpeg');"></div>
+                <div class="slider-img absolute inset-0 bg-cover bg-center transition-opacity duration-1000 opacity-0" style="background-image: url('album/WhatsApp Image 2026-05-09 at 2.12.35 PM.jpeg');"></div>
+                <div class="slider-img absolute inset-0 bg-cover bg-center transition-opacity duration-1000 opacity-0" style="background-image: url('album/WhatsApp Image 2026-05-09 at 2.12.37 PM.jpeg');"></div>
+                <div class="slider-img absolute inset-0 bg-cover bg-center transition-opacity duration-1000 opacity-0" style="background-image: url('album/WhatsApp Image 2026-05-09 at 2.12.40 PM.jpeg');"></div>
+                <div class="slider-img absolute inset-0 bg-cover bg-center transition-opacity duration-1000 opacity-0" style="background-image: url('album/WhatsApp Image 2026-05-09 at 2.12.41 PM (1).jpeg');"></div>
+                <div class="slider-img absolute inset-0 bg-cover bg-center transition-opacity duration-1000 opacity-0" style="background-image: url('album/WhatsApp Image 2026-05-09 at 2.12.41 PM.jpeg');"></div>
+                <div class="slider-img absolute inset-0 bg-cover bg-center transition-opacity duration-1000 opacity-0" style="background-image: url('album/WhatsApp Image 2026-05-09 at 2.12.42 PM (1).jpeg');"></div>
+                <div class="slider-img absolute inset-0 bg-cover bg-center transition-opacity duration-1000 opacity-0" style="background-image: url('album/WhatsApp Image 2026-05-09 at 2.12.42 PM (2).jpeg');"></div>
+                <div class="slider-img absolute inset-0 bg-cover bg-center transition-opacity duration-1000 opacity-0" style="background-image: url('album/WhatsApp Image 2026-05-09 at 2.12.42 PM (3).jpeg');"></div>
+                <div class="slider-img absolute inset-0 bg-cover bg-center transition-opacity duration-1000 opacity-0" style="background-image: url('album/WhatsApp Image 2026-05-09 at 2.12.42 PM.jpeg');"></div>
+                <div class="slider-img absolute inset-0 bg-cover bg-center transition-opacity duration-1000 opacity-0" style="background-image: url('album/WhatsApp Image 2026-05-09 at 2.12.43 PM.jpeg');"></div>
+                <!-- Overlay to ensure readability -->
+                <div class="absolute inset-0 bg-white/80 backdrop-blur-[1px]"></div>
+            </div>
+        </div>
+
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center relative z-10">
+            <div class="md:w-2/3 text-center md:text-left">
+                <h1 class="text-4xl sm:text-5xl md:text-7xl font-bold text-moss mb-4 leading-tight">Md Fahim Rahman</h1>
+                <p class="text-lg sm:text-xl md:text-2xl text-gray-600 mb-8 font-light italic">
+                    Environment & Research Professional | B.Sc. Soil, Water & Environment
+                </p>
+                <div class="flex flex-wrap justify-center md:justify-start gap-4">
+                    <a href="mailto:rrfahim12@gmail.com" class="bg-sage hover:bg-moss text-white px-8 py-3 rounded-full transition-all flex items-center gap-2 shadow-lg shadow-sage/20">
+                        <i class="far fa-envelope"></i> Contact Me
+                    </a>
+                    <a href="https://www.linkedin.com/in/fahim24/" target="_blank" class="bg-white border border-sage text-sage hover:bg-sage hover:text-white px-8 py-3 rounded-full transition-all flex items-center gap-2 shadow-lg shadow-black/5">
+                        <i class="fab fa-linkedin-in"></i> LinkedIn
+                    </a>
+                </div>
+            </div>
+            <div class="md:w-1/3 mt-12 md:mt-0 flex justify-center">
+                <div class="w-64 h-64 md:w-80 md:h-80 rounded-full border-8 border-white shadow-2xl overflow-hidden bg-sage/20 relative">
+                    <img src="images/fahim1.jpg" alt="Md Fahim Rahman" class="w-full h-full object-cover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-moss mb-12 text-center relative after:content-[''] after:absolute after:w-16 after:h-1 after:bg-sage after:bottom-[-10px] after:left-1/2 after:translate-x-[-50%]">About Me</h2>
+            <div class="space-y-6 text-lg leading-relaxed text-gray-700">
+                <p>
+                    I am a passionate and hardworking individual dedicated to enhancing technical expertise in the fields of <strong>soil, water, and environmental science</strong>. My professional journey is driven by a commitment to research and communication, aimed at contributing to sustainable solutions in the face of global change.
+                </p>
+                <p>
+                    With a solid academic foundation and hands-on experience in laboratory and field settings, I strive to combine scientific rigor with practical teamwork to provide excellent service and support daily operations in any positive workplace environment.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Album Slider Section -->
+    <section id="album-gallery" class="pb-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="relative max-w-4xl mx-auto overflow-hidden rounded-3xl shadow-xl border-4 border-paper bg-paper/50">
+                <div id="album-slider" class="flex transition-transform duration-700 ease-in-out">
+                    <div class="min-w-full h-[500px] flex items-center justify-center bg-gray-50"><img src="album/WhatsApp Image 2026-05-09 at 2.12.29 PM.jpeg" alt="Album Image" class="max-w-full max-h-full object-contain"></div>
+                    <div class="min-w-full h-[500px] flex items-center justify-center bg-gray-50"><img src="album/WhatsApp Image 2026-05-09 at 2.12.31 PM (1).jpeg" alt="Album Image" class="max-w-full max-h-full object-contain"></div>
+                    <div class="min-w-full h-[500px] flex items-center justify-center bg-gray-50"><img src="album/WhatsApp Image 2026-05-09 at 2.12.31 PM.jpeg" alt="Album Image" class="max-w-full max-h-full object-contain"></div>
+                    <div class="min-w-full h-[500px] flex items-center justify-center bg-gray-50"><img src="album/WhatsApp Image 2026-05-09 at 2.12.32 PM (1).jpeg" alt="Album Image" class="max-w-full max-h-full object-contain"></div>
+                    <div class="min-w-full h-[500px] flex items-center justify-center bg-gray-50"><img src="album/WhatsApp Image 2026-05-09 at 2.12.32 PM (2).jpeg" alt="Album Image" class="max-w-full max-h-full object-contain"></div>
+                    <div class="min-w-full h-[500px] flex items-center justify-center bg-gray-50"><img src="album/WhatsApp Image 2026-05-09 at 2.12.32 PM.jpeg" alt="Album Image" class="max-w-full max-h-full object-contain"></div>
+                    <div class="min-w-full h-[500px] flex items-center justify-center bg-gray-50"><img src="album/WhatsApp Image 2026-05-09 at 2.12.33 PM (1).jpeg" alt="Album Image" class="max-w-full max-h-full object-contain"></div>
+                    <div class="min-w-full h-[500px] flex items-center justify-center bg-gray-50"><img src="album/WhatsApp Image 2026-05-09 at 2.12.33 PM (2).jpeg" alt="Album Image" class="max-w-full max-h-full object-contain"></div>
+                    <div class="min-w-full h-[500px] flex items-center justify-center bg-gray-50"><img src="album/WhatsApp Image 2026-05-09 at 2.12.33 PM.jpeg" alt="Album Image" class="max-w-full max-h-full object-contain"></div>
+                    <div class="min-w-full h-[500px] flex items-center justify-center bg-gray-50"><img src="album/WhatsApp Image 2026-05-09 at 2.12.34 PM.jpeg" alt="Album Image" class="max-w-full max-h-full object-contain"></div>
+                    <div class="min-w-full h-[500px] flex items-center justify-center bg-gray-50"><img src="album/WhatsApp Image 2026-05-09 at 2.12.35 PM.jpeg" alt="Album Image" class="max-w-full max-h-full object-contain"></div>
+                    <div class="min-w-full h-[500px] flex items-center justify-center bg-gray-50"><img src="album/WhatsApp Image 2026-05-09 at 2.12.37 PM.jpeg" alt="Album Image" class="max-w-full max-h-full object-contain"></div>
+                    <div class="min-w-full h-[500px] flex items-center justify-center bg-gray-50"><img src="album/WhatsApp Image 2026-05-09 at 2.12.40 PM.jpeg" alt="Album Image" class="max-w-full max-h-full object-contain"></div>
+                    <div class="min-w-full h-[500px] flex items-center justify-center bg-gray-50"><img src="album/WhatsApp Image 2026-05-09 at 2.12.41 PM (1).jpeg" alt="Album Image" class="max-w-full max-h-full object-contain"></div>
+                    <div class="min-w-full h-[500px] flex items-center justify-center bg-gray-50"><img src="album/WhatsApp Image 2026-05-09 at 2.12.41 PM.jpeg" alt="Album Image" class="max-w-full max-h-full object-contain"></div>
+                    <div class="min-w-full h-[500px] flex items-center justify-center bg-gray-50"><img src="album/WhatsApp Image 2026-05-09 at 2.12.42 PM (1).jpeg" alt="Album Image" class="max-w-full max-h-full object-contain"></div>
+                    <div class="min-w-full h-[500px] flex items-center justify-center bg-gray-50"><img src="album/WhatsApp Image 2026-05-09 at 2.12.42 PM (2).jpeg" alt="Album Image" class="max-w-full max-h-full object-contain"></div>
+                    <div class="min-w-full h-[500px] flex items-center justify-center bg-gray-50"><img src="album/WhatsApp Image 2026-05-09 at 2.12.42 PM (3).jpeg" alt="Album Image" class="max-w-full max-h-full object-contain"></div>
+                    <div class="min-w-full h-[500px] flex items-center justify-center bg-gray-50"><img src="album/WhatsApp Image 2026-05-09 at 2.12.42 PM.jpeg" alt="Album Image" class="max-w-full max-h-full object-contain"></div>
+                    <div class="min-w-full h-[500px] flex items-center justify-center bg-gray-50"><img src="album/WhatsApp Image 2026-05-09 at 2.12.43 PM.jpeg" alt="Album Image" class="max-w-full max-h-full object-contain"></div>
+                </div>
+                <!-- Navigation Dots -->
+                <div class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-1 flex-wrap justify-center px-4" id="album-dots">
+                    <!-- Dots generated by JS -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section-padding bg-paper">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-moss mb-16 text-center">Academic Background</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Macquarie -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm border-l-4 border-sage hover:shadow-md transition-shadow flex justify-between items-start gap-4">
+                    <div>
+                        <span class="text-sage font-semibold uppercase tracking-widest text-xs">Current</span>
+                        <h3 class="text-xl font-bold text-gray-800 mt-2">Master of Environment</h3>
+                        <p class="text-moss font-medium">Macquarie University, Australia</p>
+                    </div>
+                    <img src="logo/250px-Logotype_of_Macquarie_University.svg.png" alt="Macquarie University Logo" class="h-12 w-auto object-contain">
+                </div>
+                <!-- Khulna -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm border-l-4 border-sage hover:shadow-md transition-shadow flex justify-between items-start gap-4">
+                    <div>
+                        <span class="text-gray-400 font-semibold uppercase tracking-widest text-xs">2020 – 2024</span>
+                        <h3 class="text-xl font-bold text-gray-800 mt-2">B.Sc. (Honors) in Soil, Water and Environment</h3>
+                        <p class="text-moss font-medium">Khulna University, Bangladesh</p>
+                        <p class="text-sm text-gray-500 mt-4 italic">Final Grade: 3.49/4.00</p>
+                        <p class="mt-4 text-gray-600 text-sm">Comprehensive focus on soil fertility, water resource management, and environmental sustainability.</p>
+                    </div>
+                    <img src="logo/khulna university.png" alt="Khulna University Logo" class="h-12 w-auto object-contain">
+                </div>
+                <!-- HSC -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm border-l-4 border-sage/40 hover:shadow-md transition-shadow flex justify-between items-start gap-4">
+                    <div>
+                        <span class="text-gray-400 font-semibold uppercase tracking-widest text-xs">2018 – 2019</span>
+                        <h3 class="text-xl font-bold text-gray-800 mt-2">Higher Secondary Certificate</h3>
+                        <p class="text-moss font-medium">Birsreshtha Munshi Abdur Rouf Public College, Dhaka</p>
+                        <p class="text-sm text-gray-500 mt-2">GPA: 4.83/5.00 | Science Studies</p>
+                    </div>
+                    <img src="logo/birshreshtha-munshi-abdur-rouf-public-college-logo-png_seeklogo-549745-940029175.png" alt="College Logo" class="h-12 w-auto object-contain">
+                </div>
+                <!-- SSC -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm border-l-4 border-sage/40 hover:shadow-md transition-shadow flex justify-between items-start gap-4">
+                    <div>
+                        <span class="text-gray-400 font-semibold uppercase tracking-widest text-xs">2016 – 2017</span>
+                        <h3 class="text-xl font-bold text-gray-800 mt-2">Secondary School Certificate</h3>
+                        <p class="text-moss font-medium">Mohammadpur Model School And College, Dhaka</p>
+                        <p class="text-sm text-gray-500 mt-2">GPA: 5.00/5.00 | Science Studies</p>
+                    </div>
+                    <img src="logo/Mohammadpur Model School And College, Dhaka.png" alt="School Logo" class="h-12 w-auto object-contain">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research & Projects Section -->
+    <section id="research" class="section-padding bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-moss mb-16 text-center">Research & Field Work</h2>
+            
+            <div class="space-y-12">
+                <!-- Theses -->
+                <div class="bg-sky/30 p-8 rounded-3xl border border-sky">
+                    <h3 class="text-xl font-bold text-academic-blue mb-6 flex items-center gap-2">
+                        <i class="fas fa-book-open"></i> Thesis Project
+                    </h3>
+                    <div class="max-w-2xl">
+                        <h4 class="font-bold text-gray-800 mb-2">B.Sc. Thesis (Field Research)</h4>
+                        <p class="text-gray-700 italic mb-4">"Effects of Two-year Organic Manure and Vegetative Cover Practice on Soil Fertility and Aggregate Stability"</p>
+                        <p class="text-sm text-gray-600 mb-4">Quantification of interactive effects of organic amendments on soil physical and fertility indices.</p>
+                        <p class="text-sm text-gray-600">Supervisor: <a href="https://ku.ac.bd/discipline/swe/faculty/msislamku" target="_blank" class="text-academic-blue hover:underline">Professor Md Sanaul Islam</a>, Khulna University</p>
+                    </div>
+                </div>
+
+                <!-- Field Reports -->
+                <div>
+                    <h3 class="text-xl font-bold text-moss mb-8 flex items-center gap-2">
+                        <i class="fas fa-map-marked-alt"></i> Selected Field & Lab Reports
+                    </h3>
+                    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                        <div class="p-6 border border-sage/10 rounded-xl hover:bg-paper transition-colors">
+                            <h4 class="font-bold text-gray-800 mb-1">Soil Classification</h4>
+                            <p class="text-xs text-sage uppercase font-bold mb-3">Sept 2024</p>
+                            <p class="text-sm text-gray-600">Mini pit description and diagnostic horizon identification based on US Taxonomy & WRB.</p>
+                        </div>
+                        <div class="p-6 border border-sage/10 rounded-xl hover:bg-paper transition-colors">
+                            <h4 class="font-bold text-gray-800 mb-1">GIS & Spatial Analysis</h4>
+                            <p class="text-xs text-sage uppercase font-bold mb-3">Dec 2023</p>
+                            <p class="text-sm text-gray-600">Developed spatial databases and maps using ArcGIS for geographic information systems.</p>
+                        </div>
+                        <div class="p-6 border border-sage/10 rounded-xl hover:bg-paper transition-colors">
+                            <h4 class="font-bold text-gray-800 mb-1">Soil Erosion & Conservation</h4>
+                            <p class="text-xs text-sage uppercase font-bold mb-3">Dec 2023</p>
+                            <p class="text-sm text-gray-600">Slope measurement, contour line formation, and Jhum cultivation analysis.</p>
+                        </div>
+                        <div class="p-6 border border-sage/10 rounded-xl hover:bg-paper transition-colors">
+                            <h4 class="font-bold text-gray-800 mb-1">Ecology & Ecosystems</h4>
+                            <p class="text-xs text-sage uppercase font-bold mb-3">Sept 2022</p>
+                            <p class="text-sm text-gray-600">Diversity measurement and community analysis with biomass estimation (C, N, P).</p>
+                        </div>
+                        <div class="p-6 border border-sage/10 rounded-xl hover:bg-paper transition-colors">
+                            <h4 class="font-bold text-gray-800 mb-1">Water Quality Analysis</h4>
+                            <p class="text-xs text-sage uppercase font-bold mb-3">Feb 2022</p>
+                            <p class="text-sm text-gray-600">Laboratory analysis of water parameters and comprehensive quality monitoring.</p>
+                        </div>
+                        <div class="p-6 border border-sage/10 rounded-xl hover:bg-paper transition-colors">
+                            <h4 class="font-bold text-gray-800 mb-1">Soil Mineralogy</h4>
+                            <p class="text-xs text-sage uppercase font-bold mb-3">Mar 2022</p>
+                            <p class="text-sm text-gray-600">Field study in Sylhet Region (Srimongol, Jaflong) for mineral characterization.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Video Section -->
+    <section id="video" class="section-padding bg-paper">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-moss mb-12 text-center">Featured Documentary</h2>
+            <div class="aspect-video rounded-3xl overflow-hidden shadow-2xl border-8 border-white">
+                <iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/5aHQ6eJ6Iqg" title="A Documentary video about Khulna University by Thoughts Behind The KU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <p class="mt-6 text-center text-gray-700 font-medium">A Documentary video about Khulna University by Thoughts Behind The KU</p>
+        </div>
+    </section>
+
+    <!-- Work Experience Section -->
+    <section id="experience" class="section-padding bg-paper">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-moss mb-16 text-center">Professional Experience</h2>
+            
+            <div class="space-y-12">
+                <!-- DoubleTake Sports -->
+                <div class="relative pl-8 border-l-2 border-sage">
+                    <div class="absolute w-4 h-4 bg-sage rounded-full -left-[9px] top-1"></div>
+                    <div class="mb-2 flex flex-col md:flex-row md:justify-between items-start md:items-center">
+                        <div class="flex items-center gap-4">
+                            <h3 class="text-xl font-bold text-gray-800">Stream Camera Operator</h3>
+                            <img src="logo/DoubleTake Sports.jpeg" alt="DoubleTake Sports Logo" class="h-8 w-auto object-contain">
+                        </div>
+                        <span class="text-sm font-semibold text-sage">May 2026 – Present</span>
+                    </div>
+                    <p class="text-moss font-medium mb-4">DoubleTake Sports, Australia</p>
+                    <ul class="list-disc list-outside ml-4 text-gray-600 space-y-1 text-sm">
+                        <li>Operating professional camera equipment for live streaming sports events.</li>
+                        <li>Ensuring high-quality visual coverage and technical stability during broadcasts.</li>
+                    </ul>
+                </div>
+
+                <!-- Caltex -->
+                <div class="relative pl-8 border-l-2 border-sage">
+                    <div class="absolute w-4 h-4 bg-sage rounded-full -left-[9px] top-1"></div>
+                    <div class="mb-2 flex flex-col md:flex-row md:justify-between items-start md:items-center">
+                        <h3 class="text-xl font-bold text-gray-800">Customer Service Representative</h3>
+                        <span class="text-sm font-semibold text-sage">Nov 2025 – Present</span>
+                    </div>
+                    <p class="text-moss font-medium mb-4">Caltex Weston, NSW, Australia</p>
+                    <ul class="list-disc list-outside ml-4 text-gray-600 space-y-1 text-sm">
+                        <li>Providing exceptional customer service and handling fuel station support operations.</li>
+                        <li>Managing cash transactions and maintaining store presentation and stock refills.</li>
+                        <li>Ensuring strict adherence to food preparation and hygiene standards.</li>
+                    </ul>
+                </div>
+
+                <!-- Last Man Stand -->
+                <div class="relative pl-8 border-l-2 border-sage">
+                    <div class="absolute w-4 h-4 bg-sage rounded-full -left-[9px] top-1"></div>
+                    <div class="mb-2 flex flex-col md:flex-row md:justify-between items-start md:items-center">
+                        <h3 class="text-xl font-bold text-gray-800">Umpire</h3>
+                        <span class="text-sm font-semibold text-sage">Oct 2025 – Feb 2026</span>
+                    </div>
+                    <p class="text-moss font-medium mb-4">Last Man Stand, Australia</p>
+                    <ul class="list-disc list-outside ml-4 text-gray-600 space-y-1 text-sm">
+                        <li>Officiated competitive cricket matches with a focus on accuracy and professionalism.</li>
+                        <li>Effective player management and clear communication of decisions.</li>
+                    </ul>
+                </div>
+
+                <!-- Lexicon -->
+                <div class="relative pl-8 border-l-2 border-sage">
+                    <div class="absolute w-4 h-4 bg-sage rounded-full -left-[9px] top-1"></div>
+                    <div class="mb-2 flex flex-col md:flex-row md:justify-between items-start md:items-center">
+                        <div class="flex items-center gap-4">
+                            <h3 class="text-xl font-bold text-gray-800">Head of Business Development</h3>
+                            <img src="logo/lexicon.png" alt="Lexicon Logo" class="h-8 w-auto object-contain">
+                        </div>
+                        <span class="text-sm font-semibold text-sage">Jun 2024 – Jan 2025</span>
+                    </div>
+                    <p class="text-moss font-medium mb-4">Lexicon (British Council Examination Venue), Bangladesh</p>
+                    <ul class="list-disc list-outside ml-4 text-gray-600 space-y-1 text-sm">
+                        <li>Led marketing campaigns and managed sponsorship deals and discount strategies.</li>
+                        <li>Organized educational seminars and job fairs to enhance brand presence.</li>
+                        <li>Identified new market opportunities and developed strategic partnerships.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section-padding bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-moss mb-16 text-center">Professional Skills</h2>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Field Specific -->
+                <div class="bg-paper p-6 rounded-2xl">
+                    <h3 class="font-bold text-moss mb-4 flex items-center gap-2"><i class="fas fa-microscope text-sage"></i> Scientific</h3>
+                    <ul class="text-sm text-gray-600 space-y-2">
+                        <li>Soil Profiling & Sampling</li>
+                        <li>Water Quality Monitoring</li>
+                        <li>Ecosystem Community Analysis</li>
+                        <li>Laboratory Instrumentation</li>
+                        <li>Mineral Characterization</li>
+                    </ul>
+                </div>
+                <!-- Technical/Digital -->
+                <div class="bg-paper p-6 rounded-2xl">
+                    <h3 class="font-bold text-moss mb-4 flex items-center gap-2"><i class="fas fa-laptop-code text-sage"></i> Technical</h3>
+                    <ul class="text-sm text-gray-600 space-y-2">
+                        <li>ArcGIS / ArcMap</li>
+                        <li>GIS Spatial Analysis</li>
+                        <li>Statistical Analysis (Excel)</li>
+                        <li>MS Office Suite</li>
+                        <li>Graphic Design & Video</li>
+                    </ul>
+                </div>
+                <!-- Research -->
+                <div class="bg-paper p-6 rounded-2xl">
+                    <h3 class="font-bold text-moss mb-4 flex items-center gap-2"><i class="fas fa-search text-sage"></i> Research</h3>
+                    <ul class="text-sm text-gray-600 space-y-2">
+                        <li>Quantitative Research Design</li>
+                        <li>Data Collection & Cleaning</li>
+                        <li>Synopsis Development</li>
+                        <li>Result Interpretation</li>
+                        <li>Land Use Surveys</li>
+                    </ul>
+                </div>
+                <!-- Soft Skills -->
+                <div class="bg-paper p-6 rounded-2xl">
+                    <h3 class="font-bold text-moss mb-4 flex items-center gap-2"><i class="fas fa-users text-sage"></i> Communication</h3>
+                    <ul class="text-sm text-gray-600 space-y-2">
+                        <li>English (IELTS 6.5 / C1)</li>
+                        <li>Bengali (Native)</li>
+                        <li>Advocacy & Networking</li>
+                        <li>Leadership & Management</li>
+                        <li>Public Speaking</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Involvement & Awards -->
+    <section id="involvement" class="section-padding bg-paper">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-16">
+                <!-- Leadership & Engagement -->
+                <div>
+                    <h2 class="text-2xl font-bold text-moss mb-10">Leadership & Engagement</h2>
+                    <div class="space-y-8">
+                        <!-- Primary Roles -->
+                        <div class="grid sm:grid-cols-2 gap-6">
+                            <div class="flex gap-4">
+                                <div class="flex-shrink-0 w-12 h-12 bg-white rounded-full flex items-center justify-center text-sage shadow-sm">
+                                    <i class="fas fa-users-cog"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-gray-800 leading-tight">Secretary, Rotaract Club</h4>
+                                    <p class="text-xs text-gray-600">Khulna University (2023-2024)</p>
+                                </div>
+                            </div>
+                            <div class="flex gap-4">
+                                <div class="flex-shrink-0 w-12 h-12 bg-white rounded-full flex items-center justify-center text-sage shadow-sm">
+                                    <i class="fas fa-user-tie"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-gray-800 leading-tight">President, Pedon</h4>
+                                    <p class="text-xs text-gray-600">Student Welfare Association (2023-2024)</p>
+                                </div>
+                            </div>
+                            <div class="flex gap-4">
+                                <div class="flex-shrink-0 w-12 h-12 bg-white rounded-full flex items-center justify-center text-sage shadow-sm">
+                                    <i class="fas fa-bullhorn"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-gray-800 leading-tight">Head of Promotion, TEDx</h4>
+                                    <p class="text-xs text-gray-600">TEDx Khulna University (2024)</p>
+                                </div>
+                            </div>
+                            <div class="flex gap-4">
+                                <div class="flex-shrink-0 w-12 h-12 bg-white rounded-full flex items-center justify-center text-sage shadow-sm">
+                                    <i class="fas fa-seedling"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-gray-800 leading-tight">Founder, Thoughts Behind the KU</h4>
+                                    <p class="text-xs text-gray-600">Online Academic Club (2020-2024)</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-4 items-center">
+                            <div class="flex-shrink-0 w-12 h-12 bg-white rounded-full flex items-center justify-center text-sage shadow-sm">
+                                <i class="fas fa-hands-helping"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-800 leading-tight">Volunteer Engagement</h4>
+                                <p class="text-sm text-gray-600">Clean4Shore (Australia), Three Minute Thesis Competition, National Soil Olympiad.</p>
+                            </div>
+                        </div>
+
+                        <!-- Event Organization & Impact -->
+                        <div class="bg-white/50 p-6 rounded-2xl border border-sage/10">
+                            <h3 class="text-sm font-bold uppercase tracking-wider text-sage mb-4 italic">Event Organization & Community Impact</h3>
+                            <ul class="grid sm:grid-cols-2 gap-x-8 gap-y-3 text-sm text-gray-700">
+                                <li class="flex items-center gap-2"><i class="fas fa-check-circle text-sage/60"></i> Chair, Khulna University Job Fair 2022</li>
+                                <li class="flex items-center gap-2"><i class="fas fa-check-circle text-sage/60"></i> Coordinated European Film Festival 2023</li>
+                                <li class="flex items-center gap-2"><i class="fas fa-check-circle text-sage/60"></i> Organized World Soil Day 2023</li>
+                                <li class="flex items-center gap-2"><i class="fas fa-check-circle text-sage/60"></i> Convener, Sizzling Soil (BBQ Event)</li>
+                                <li class="flex items-center gap-2"><i class="fas fa-check-circle text-sage/60"></i> Executed Talking Titans Competition</li>
+                                <li class="flex items-center gap-2"><i class="fas fa-check-circle text-sage/60"></i> Led Winter Clothing & Scholarship Funds</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Awards -->
+                <div>
+                    <h2 class="text-2xl font-bold text-moss mb-10">Honours & Awards</h2>
+                    <div class="bg-white p-8 rounded-3xl shadow-sm border border-sage/10 relative overflow-hidden">
+                        <div class="absolute top-[-20px] right-[-20px] text-sage/5 transform rotate-12">
+                            <i class="fas fa-trophy text-9xl"></i>
+                        </div>
+                        <ul class="space-y-6 relative z-10">
+                            <li class="flex items-start gap-4">
+                                <div class="mt-1 bg-earth/10 text-earth p-2 rounded-lg">
+                                    <i class="fas fa-award"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-gray-800">Best Community Program Chair Award</h4>
+                                    <p class="text-sm text-gray-500 italic">Khulna University (2022-2023)</p>
+                                </div>
+                            </li>
+                            <li class="flex items-start gap-4">
+                                <div class="mt-1 bg-earth/10 text-earth p-2 rounded-lg">
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-gray-800">Outstanding Rotaractor of the Year</h4>
+                                    <p class="text-sm text-gray-500 italic">Rotaract Club (2022-2023)</p>
+                                </div>
+                            </li>
+                            <li class="flex items-start gap-4">
+                                <div class="mt-1 bg-earth/10 text-earth p-2 rounded-lg">
+                                    <i class="fas fa-certificate"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-gray-800">Rising Star of the Year Award</h4>
+                                    <p class="text-sm text-gray-500 italic">Annual Recognition (2021-2022)</p>
+                                </div>
+                            </li>
+                            <li class="flex items-start gap-4">
+                                <div class="mt-1 bg-earth/10 text-earth p-2 rounded-lg">
+                                    <i class="fas fa-medal"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-gray-800">Runner Up, Inter University Cricket</h4>
+                                    <p class="text-sm text-gray-500 italic">Tournament 2023</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Slider Section -->
+    <section id="certificates" class="section-padding bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-moss mb-12 text-center">Certificates & Achievements</h2>
+            <div class="relative max-w-4xl mx-auto overflow-hidden rounded-2xl shadow-xl border-4 border-paper">
+                <div id="certificate-slider" class="flex transition-transform duration-700 ease-in-out">
+                    <div class="min-w-full"><img src="certificates/activities-0.jpg" alt="Certificate" class="w-full h-auto"></div>
+                    <div class="min-w-full"><img src="certificates/activities-1.jpg" alt="Certificate" class="w-full h-auto"></div>
+                    <div class="min-w-full"><img src="certificates/activities-2.jpg" alt="Certificate" class="w-full h-auto"></div>
+                    <div class="min-w-full"><img src="certificates/activities-3.jpg" alt="Certificate" class="w-full h-auto"></div>
+                    <div class="min-w-full"><img src="certificates/activities-4.jpg" alt="Certificate" class="w-full h-auto"></div>
+                    <div class="min-w-full"><img src="certificates/activities-5.jpg" alt="Certificate" class="w-full h-auto"></div>
+                    <div class="min-w-full"><img src="certificates/Fahim.jpg" alt="Certificate" class="w-full h-auto"></div>
+                </div>
+                <!-- Navigation Dots -->
+                <div class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2" id="cert-dots">
+                    <!-- Dots generated by JS -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold text-moss mb-8">
+                <a href="mailto:rrfahim12@gmail.com" class="hover:text-sage transition-colors underline decoration-sage/30 underline-offset-8">Get In Touch</a>
+            </h2>
+            <p class="text-gray-600 mb-12">I am always open to discussing research collaborations, environmental initiatives, or professional opportunities.</p>
+            
+            <div class="grid md:grid-cols-2 gap-8 mb-16">
+                <div class="flex flex-col items-center">
+                    <div class="w-14 h-14 bg-sky rounded-full flex items-center justify-center text-academic-blue mb-4">
+                        <i class="fas fa-envelope text-xl"></i>
+                    </div>
+                    <h4 class="font-bold text-gray-800 mb-1">Email</h4>
+                    <p class="text-sm text-gray-500">rrfahim12@gmail.com</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <div class="w-14 h-14 bg-sky rounded-full flex items-center justify-center text-academic-blue mb-4">
+                        <i class="fab fa-linkedin-in text-xl"></i>
+                    </div>
+                    <h4 class="font-bold text-gray-800 mb-1">LinkedIn</h4>
+                    <p class="text-sm text-gray-500">/in/fahim24</p>
+                </div>
+            </div>
+
+            <div class="bg-paper p-8 rounded-3xl border border-sage/10 text-left">
+                <h3 class="text-lg font-bold text-moss mb-6">Availability & References</h3>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <h4 class="text-sm font-bold uppercase text-sage mb-2">Work Availability</h4>
+                        <p class="text-sm text-gray-600">Available Weekdays (Mon, Wed, Fri-Sun), Weekends, Nights, and Public Holidays.</p>
+                    </div>
+                    <div>
+                        <h4 class="text-sm font-bold uppercase text-sage mb-2">References</h4>
+                        <p class="text-xs text-gray-500 italic">Available upon request from academic supervisors at Khulna University: 
+                            <a href="https://ku.ac.bd/discipline/swe/faculty/msislamku" target="_blank" class="text-academic-blue hover:underline">Prof. Md Sanaul Islam</a> & 
+                            <a href="https://ku.ac.bd/discipline/swe/faculty/sadiq" target="_blank" class="text-academic-blue hover:underline">Md. Sadiqul Amin</a>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-moss py-12 text-white">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <p class="text-xs opacity-60">&copy; <span id="year"></span> Md Fahim Rahman. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Set dynamic year
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Hero Slider Logic
+        const sliderImgs = document.querySelectorAll('.slider-img');
+        let currentIdx = 0;
+
+        function nextSlide() {
+            sliderImgs[currentIdx].classList.replace('opacity-100', 'opacity-0');
+            currentIdx = (currentIdx + 1) % sliderImgs.length;
+            sliderImgs[currentIdx].classList.replace('opacity-0', 'opacity-100');
+        }
+
+        if (sliderImgs.length > 0) {
+            setInterval(nextSlide, 5000); // Change image every 5 seconds
+        }
+
+        // Certificate Slider Logic
+        const certSlider = document.getElementById('certificate-slider');
+        const certSlides = certSlider.querySelectorAll('.min-w-full');
+        const certDotsContainer = document.getElementById('cert-dots');
+        let certIdx = 0;
+
+        // Create dots
+        certSlides.forEach((_, i) => {
+            const dot = document.createElement('div');
+            dot.className = `w-2 h-2 rounded-full bg-white/50 cursor-pointer transition-all ${i === 0 ? 'w-4 bg-white' : ''}`;
+            dot.addEventListener('click', () => goToCert(i));
+            certDotsContainer.appendChild(dot);
+        });
+
+        const dots = certDotsContainer.querySelectorAll('div');
+
+        function updateCertSlider() {
+            certSlider.style.transform = `translateX(-${certIdx * 100}%)`;
+            dots.forEach((dot, i) => {
+                dot.className = `w-2 h-2 rounded-full bg-white/50 cursor-pointer transition-all ${i === certIdx ? 'w-4 bg-white' : ''}`;
+            });
+        }
+
+        function goToCert(idx) {
+            certIdx = idx;
+            updateCertSlider();
+        }
+
+        function nextCert() {
+            certIdx = (certIdx + 1) % certSlides.length;
+            updateCertSlider();
+        }
+
+        setInterval(nextCert, 3000); // 3 second auto-slide
+
+        // Album Slider Logic
+        const albumSlider = document.getElementById('album-slider');
+        const albumSlides = albumSlider.querySelectorAll('.min-w-full');
+        const albumDotsContainer = document.getElementById('album-dots');
+        let albumIdx = 0;
+
+        // Create dots
+        albumSlides.forEach((_, i) => {
+            const dot = document.createElement('div');
+            dot.className = `w-1.5 h-1.5 rounded-full bg-moss/30 cursor-pointer transition-all ${i === 0 ? 'w-3 bg-moss' : ''}`;
+            dot.addEventListener('click', () => goToAlbum(i));
+            albumDotsContainer.appendChild(dot);
+        });
+
+        const albumDots = albumDotsContainer.querySelectorAll('div');
+
+        function updateAlbumSlider() {
+            albumSlider.style.transform = `translateX(-${albumIdx * 100}%)`;
+            albumDots.forEach((dot, i) => {
+                dot.className = `w-1.5 h-1.5 rounded-full bg-moss/30 cursor-pointer transition-all ${i === albumIdx ? 'w-3 bg-moss' : ''}`;
+            });
+        }
+
+        function goToAlbum(idx) {
+            albumIdx = idx;
+            updateAlbumSlider();
+        }
+
+        function nextAlbum() {
+            albumIdx = (albumIdx + 1) % albumSlides.length;
+            updateAlbumSlider();
+        }
+
+        setInterval(nextAlbum, 4000); // 4 second auto-slide
+
+        // Mobile Menu Toggle
+        const btn = document.getElementById('mobile-menu-button');
+        const menu = document.getElementById('mobile-menu');
+
+        btn.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        });
+
+        // Close menu on link click
+        document.querySelectorAll('#mobile-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                menu.classList.add('hidden');
+            });
+        });
+    </script>
+</body>
+</html>
