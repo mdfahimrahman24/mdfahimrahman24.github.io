@@ -137,18 +137,35 @@
 - Own transport
 - TFN registered
 
-## Research & Field Work
-- **Thesis (Unpublished):** Effects of Two-year Organic Manure and Vegetative Cover Practice on Soil Fertility and Aggregate Stability.
-  - Aggregate stability and fertility status tests are essential for accurately assessing and ranking soil responses to water, wind, and management practices. Therefore, quantification of the interactive effects of organic amendments and vegetative cover on soil aggregation, aggregate stability, and their roles in soil fertility is of immense importance to sustainable agricultural practices. Supervisor: Professor Md Sanaul Islam.
-- **Field and Lab Reports (submitted as part of Curriculum):**
-  - **Feb 2020:** Soil profile study in Batiaghata, Khulna. Tasks - profile opening; horizon nomenclature; sampling techniques for soil, water and plant; determination of some physical and chemical properties of soil.
-  - **Mar 2020:** Hydrologic data collection and field water balance interpretation - A field study. Tasks - estimating different hydrologic components and their functions, data collection and interpretation; construction and interpretation of hydrograph; identifying the level of subsurface and groundwater.
-  - **Mar 2022:** A field study on the identification, quantification and characterization of soil minerals in Sylhet Region (Srimongol, Jaflong, Lawachara Rain forest, Bichanakandi).
-  - **Feb 2022:** A lab report on "Water Resources and Water Quality Sessional/Field Work". Tasks - a. Analysis of water quality: laboratory analysis of different parameters of water sample and grading; b. Water quality monitoring.
-  - **Sep 2022:** A field study on "Soil Ecology and Ecosystems Sessional/Field Work in Khulna University". Tasks - a. Diversity measurement of an ecosystem; b. Community analysis of a particular ecosystem; c. Estimation of biomass of carbon, nitrogen and phosphorus.
-  - **Dec 2023:** A field study on "Soil Erosion and Conservation Sessional/Field Work". Tasks - a. Measurement of slope; b. Contour line formation by A-frame; c. Construction of inward and outward bench terrace; d. Jhum cultivations - its advantages and limitations and drawing suggestions for improvement.
-  - **Dec 2023:** A report on "Geographic Information System Sessional". Tasks - Developing spatial database, GIS map and database, Spatial analysis.
-  - **Sep 2024:** A report on "Soil Classification and Soils of Bangladesh Sessional/Fieldwork". Tasks - Mini pit description, identification of diagnostic horizons, physical and chemical analysis and classify soils on the basis of US Taxonomy, FAO-UNSCO and WRB classification systems.
+## Research & Consulting Projects
+
+### Master's Projects (Macquarie University)
+- **State of Water Quality in the Creeks of Macquarie University**
+  - Individual Technical Report | Environmental Pollution
+- **Soil Contamination and Remediation Assessment, Homebush West**
+  - Group Technical Report | Environmental Remediation
+- **Environmental Impact Assessment of Eraring Power Station, NSW**
+  - Group Report | Environmental Pollution
+- **Water Sensitive Urban Design Policy Proposal, Parramatta**
+  - Policy Report | Environmental Planning
+- **Climate Change Adaptation for Samoa’s Coastal Transport Infrastructure**
+  - Individual Research Report | Climate Change and Adaptation
+- **Urban Stream Rehabilitation Assessment, Manly Lagoon**
+  - Scientific Report | The Living Environment
+- **Macroinvertebrate Ecology Field Study**
+  - Group Field Project | Field Methods in Environmental Science
+- **Plastic and Microplastic Waste Management in NSW**
+  - Literature Review | Australian Environmental Futures
+
+### Undergraduate Research (Khulna University)
+- **Undergraduate Research Thesis:** "Effects of Two-year Organic Manure and Vegetative Cover Practice on Soil Fertility and Aggregate Stability"
+  - Supervisor: Professor Md. Sanaul Islam.
+- **Hydrologic data collection and field water balance interpretation:** A field study. Tasks - estimating different hydrologic components and their functions, data collection and interpretation; construction and interpretation of hydrograph; identifying the level of subsurface and groundwater.
+- **A field Study on the identification, quantification and characterization of soil minerals in Sylhet Region (SriMongol, Jaflong, Lawachara Rain Forest, Bichanakandi):** A lab report on “Water Resources and Water Quality Sessional/Field Work”. Tasks - Analysis of water quality: laboratory analysis of different parameters of water sample and grading, Water quality monitoring.
+- **A field study on “Soil Ecology and Ecosystems Sessional/ Field Work in Khulna University”:** Tasks - a. Diversity measurement of an ecosystem; b. Community analysis of a particular ecosystem; c. Estimation of biomass of carbon, nitrogen and phosphorus.
+- **A field study on “Soil Erosion and Conservation Sessional/Field Work”:** Tasks - a. Measurement of slope; b. Contour line formation by A-frame; c. Construction of inward and outward bench terrace; d. Jhum cultivations - its advantages and limitations and drawing suggestions for improvement.
+- **A report on “Geographic Information System Sessional”:** Tasks - Developing spatial database, GIS map and database, Spatial analysis.
+- **A report on “Soil Classification and Soils of Bangladesh Sessional/Fieldwork”:** Tasks - Mini pit description, identification of diagnostic horizons, physical and chemical analysis and classify soils based on US Taxonomy, FAO-UNSCO and WRB classification systems.
 
 ## Social Activity & Volunteering
 - **Volunteer**, World Soil Day (2023)
