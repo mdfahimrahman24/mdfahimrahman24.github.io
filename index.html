@@ -797,6 +797,27 @@
         const sliderImgs = document.querySelectorAll('.slider-img');
         let currentIdx = 0;
 
+        // --- MOBILE ALIGNMENT CONFIGURATION (Trial & Error) ---
+        // Change the horizontal percentage values to position the subject in mobile view (width < 768px).
+        // 50% = centered, 0% = aligned left, 100% = aligned right.
+        const mobilePositions = {
+            0: '90%', // Image 1 (1719142251669.jpg)
+            1: '45%', // Image 2 (1737968602000.jpg)
+            2: '35%', // Image 3 (WhatsApp Image 2026-05-09 at 2.12.37 PM_16-9.jpeg)
+            3: '30%'  // Image 4 (WhatsApp Image 2026-05-09 at 2.12.41 PM _ 16-9.jpeg)
+        };
+
+        function updateSlidePositions() {
+            const isMobile = window.innerWidth < 768;
+            sliderImgs.forEach((img, idx) => {
+                if (isMobile && mobilePositions[idx] !== undefined) {
+                    img.style.backgroundPosition = `${mobilePositions[idx]} center`;
+                } else {
+                    img.style.backgroundPosition = 'center';
+                }
+            });
+        }
+
         function nextSlide() {
             sliderImgs[currentIdx].classList.replace('opacity-100', 'opacity-0');
             currentIdx = (currentIdx + 1) % sliderImgs.length;
@@ -806,6 +827,10 @@
         if (sliderImgs.length > 0) {
             setInterval(nextSlide, 3000); // Change image every 3 seconds (faster)
         }
+
+        // Initialize positions on load and handle window resizing
+        updateSlidePositions();
+        window.addEventListener('resize', updateSlidePositions);
 
         // Certificate Slider Logic
         const certSlider = document.getElementById('certificate-slider');
