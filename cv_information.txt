@@ -70,66 +70,29 @@
   - Europass Levels: Listening C1, Reading B2, Spoken production C1, Spoken interaction C1, Writing B2.
 
 ### Technical & Digital Skills
-- **Data Analysis and Visualization:**
-  - Statistical analysis through MS Excel.
-  - Microsoft Office Suite: Word, Excel, PowerPoint.
-  - Video Creation.
-  - Graphic Designing.
-  - Advertising Copywriter.
-- **Geo-Spatial Data Analysis and Visualization:**
-  - Capable of georeferencing, geoprocessing, spatial statistics extraction, spatial analysis and advanced cartography using ArcMap.
-- **Technical/Laboratory Skills:**
-  - Can operate Electrode pH meter and EC meter.
-  - Can operate Flame Emission Spectroscopic meter, Distillation Apparatus, Kjeldahl Digestion Apparatus, Titration Apparatus etc.
+- **Data Analysis and Visualization:** Statistical analysis through MS Excel, data visualization.
+- **Microsoft Office Suite:** Word, Excel, PowerPoint.
+- **GIS and Spatial Analysis:** ArcGIS Pro, Georeferencing, Geoprocessing, Spatial analysis.
+- **Digital Communication & Media:** Documentary storytelling, Video scripting, Video editing, Camera operation, Interview production, Live video production, Content planning, Digital media communication.
 
-### Field Specific Skills
-- **Soil:** Soil profiling; horizon nomenclature; soil sampling; soil physical and chemical properties identification and analysis (quantifying soil acidity, soil electrical conductivity, organic carbon and organic matter, moisture content, bulk density, textural class, particle size distribution micro-aggregate analysis of soil, cation exchange capacity, percent base saturation, sodium adsorption ratio and exchangeable sodium percentage); identify and characterize common rocks and minerals; mini pit description, identification of diagnostic horizons, physical and chemical analysis and classify soils on the basis of US Taxonomy, FAO-UNSCO and WRB classification systems.
-- **Water:** Water sampling; construction and interpretation of hydrograph; water quality analysis; water quality monitoring.
-- **Environment:** Community analysis of a particular ecosystem.
+### Field & Scientific Skills
+- **Environmental Assessment:** Environmental Impact Assessment (EIA), Environmental monitoring, Environmental planning, Sustainability assessment, Environmental compliance, Environmental risk assessment.
+- **Water & Catchment Management:** Water quality assessment, WQI calculation, Stormwater management, Water Sensitive Urban Design (WSUD), Hydrology, Watershed management, River and floodplain management.
+- **Soil & Contaminated Land:** Soil sampling, Soil classification, Soil survey, Land evaluation, Soil physical and chemical analysis, Contaminated land assessment, Remediation planning.
+- **Field & Laboratory Skills:** Soil and water sampling, pH and EC measurement, Turbidity, Dissolved oxygen, TDS, BOD, Nutrients, Faecal coliform interpretation, Soil texture, Bulk density, Organic matter, Hydrocarbon and Trace metal assessment.
 
-### Research and Survey Skills
-- Expert in Quantitative Research, Data Analysis, and Land Use Survey.
-- Apt in Synopsis development, Quantitative research design, Tools design & Piloting, Data collection and data cleaning, Quantitative data analysis, Appropriate data visualization, Results interpretation and a range of report writing.
-- Soil Survey.
-- Land Use Survey.
+### Communication & Interpersonal Skills
+- Strong advocacy, communication and networking skill (gained through attending key seminars, symposiums, and webinars on soil-water salinity, climate change, and sustainable development, 2021-2024).
+- Participated in National Soil Olympiad 2021.
+- Participated in International Webinar on Water Conservation In-conjunction with Water Conservation Education and Awareness Program at Pahang, Malaysia.
+- Completed "Sustainable Architecture and Building Design" course on Udemy.
 
-### Communication and Interpersonal Skills
-- Strong advocacy, communication and networking skill (gained through attending key seminars, symposiums, and webinars on soil-water salinity, climate change, and sustainable development, 2021-2024):
-  - 03 December 2024: attended an insightful talk by Prof. Dr. Mohammad Shamsudduha (IRDR, UCL) on soil-water salinity dynamics in Southwest Coastal Bangladesh.
-  - 27 June 2024: attended the National Seminar on "Awareness Building Campaign on Adverse Impact of Climate Change".
-  - 29 May 2024: Participated in research to impact symposium (Water and Soil Salinization risks to food security, Health and Environment).
-  - 28 May 2024: Participated in an international webinar on Water Conservation.
-  - 16 March 2024: Participated in career development workshop in Khulna University Job Fair 2024.
-  - 23 July 2023: Participated in a seminar on National Used Cooking oil mission for Bangladesh by MÜNZER Bangladesh Pvt. Ltd.
-  - 05 August 2023: Participated in a survey among farmers who cultivate crab in Coastal Region of Bangladesh.
-  - 30 August 2023: Volunteer in Three Minute Thesis Competition 2023 at Khulna University.
-  - 09 September 2023: Event Planning and Management, Leveraging the sustainable development goals to enhance Environmental sustainability in Bangladesh.
-  - 24 September 2023: Participated on a seminar on Contemporary Research in Soil, Water and Environment Discipline.
-  - 17 October 2022: Participated in a session about Youth community enlargement with BRAC Microfinance Team.
-  - 10 October 2022: Hosted Banglalink Ennovators 6th edition roadshow in Khulna University.
-  - 05 December 2021: Participated National Soil Olympiad 2021.
-- Effective liaison maintaining skill (gained through organizational experience).
-
-### Leadership and Organizational / Managerial Skills
-- 2023-2024: Secretary, Rotaract Club of Khulna University (Social Welfare Organization).
-- 2023-2024: President, Pedon (Student Welfare Association of Soil, Water and Environment Discipline).
-- 2024: Head of Promotion, TEDx Khulna University.
-- 2024: Convener, Sizzling Soil (A BBQ event with all the students and alumni of the SWE discipline).
-- 2024: Organized Mastering Your CV and Corporate Grooming by Shantanu Roy (Head of HR, Anwar Group of Industries).
-- 2024: Arranged a seminar on Financial Literacy Program with IFIC Bank PLC.
-- 2022-2023: Chair, Community Service Committee, Rotaract Club of Khulna University.
-- 2022-2023: Education and Information Secretary, Pedon.
-- 2020-2024: Founder, Thoughts Behind the KU (Online Based Club of Khulna University).
-- 2024: Directed a Higher Education related seminar named "Mastering IELTS and Study Abroad".
-- 2020-2024: Fund collection for social events like winter cloths distribution, Eid Gifts, Scholarship and Educational material distribution, tree plantation, Autism Child, Old age home, Sustainable change of a family, Campus Cleaning etc.
-- 2023: Organized World Soil Day-2023 at Khulna University.
-- 2023: Coordinated European Film Festival 2023. Ambassador and Head of Delegation of EU, Charles Whitele was present there.
-- 2022, 2023: Executed a public speaking competition titled Talking Titans - Speak to Lead in Khulna University.
-- 2023: Executed a school event in World Water Day-2023.
-- 2023: Captain, Soil, Water and Environment Discipline Cricket Team.
-- 2022: Chair, Khulna University Job Fair-2022 organized by Khulna University and Rotaract Club.
-- 2022: Executed a seminar on Adolescent Health awareness in a remote upazilla of Khulna named Koyra.
-- 2022: Convener, Executive Committee, Fresher’s Reception, Khulna University.
+### Leadership & Organizational Skills
+- Secretary, Rotaract Club of Khulna University (2023-2024)
+- President, Pedon, Soil, Water and Environment Student Association, Khulna University (2023-2024)
+- Head of Promotion, TEDx Khulna University (2024)
+- Founder, Thoughts Behind the KU (2020-2024)
+- Captain, Soil, Water and Environment Discipline Cricket Team
 
 ## Licences & Checks
 - Australian work rights
