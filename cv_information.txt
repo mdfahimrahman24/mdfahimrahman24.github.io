@@ -7,10 +7,11 @@
 - **Gender:** Male
 - **Phone Numbers:** [Removed for Privacy]
 - **Email:** rrfahim12@gmail.com
-- **LinkedIn:** https://www.linkedin.com/in/fahim24/ (or /in/fahim/24/)
-- **Website:** ku.ac.bd
+- **LinkedIn:** https://www.linkedin.com/in/fahim24/
+- **Website:** https://mdfahimrahman24.github.io
 - **Addresses:**
-  - 41A, Magnetic Dr, Ashtonfield, NSW 2323, Australia
+  - Newcastle, NSW, Australia (Current)
+  - 41A, Magnetic Dr, Ashtonfield, NSW 2323, Australia (Previous)
   - 12, Koshba, Dinajpur Sadar, Dinajpur, Bangladesh (Home)
 
 ## Profile / Career Objective
@@ -21,13 +22,15 @@
 ## Education
 - **Master of Environment**
   - Macquarie University, Australia
-  - Status: Current
+  - Expected completion: July 2027
+  - Relevant coursework: Environmental and Sustainability Consulting, Environmental Planning, Environmental Remediation, Environmental Pollution, Field Methods in Environmental Science, Science in Environmental Management, Environmental Law and Sustainable Development, Sustainable Cities, Climate Change and Adaptation, Climate Change and Society, Australian Environmental Futures, The Living Environment, Environmental Applications of GIS and Remote Sensing, Introduction to GIS and Remote Sensing.
 - **B.Sc. (Honors) in Soil, Water and Environment**
   - Khulna University, Khulna, Bangladesh
-  - Duration: 16/01/2020 – 23/01/2025 (or 2020 - Present)
-  - Final Grade: 3.49/4.00 (or 3.48/4.00 up to 3rd year)
-  - Thesis: "Shrinking of cropland and associated reduction of crop production and diversity: a thread to food security of future Bangladesh" (Supervisor: Professor Md Sanaul Islam)
+  - Duration: 2020 – 2024
+  - Final CGPA: 3.52/4.00
+  - Thesis: "Effects of Two-year Organic Manure and Vegetative Cover Practice on Soil Fertility and Aggregate Stability" (Supervisor: Professor Md Sanaul Islam)
   - Description: Gained a comprehensive understanding of soil science, water resource management, and environmental sustainability, focusing on soil fertility, organic amendments, and ecosystem health. Acquired hands-on research experience in soil physical properties, nutrient dynamics, and sustainable land management practices.
+  - Relevant coursework: Soil Survey and Land Evaluation, Soil Classification, Soil Chemistry, Soil Physics, Hydrology, Water Resources and Water Quality, Watershed and Wetland Management, Soil Erosion and Conservation, Environmental Chemistry, Water and Soil Pollution, Natural Resource Management, Waste Management, Climate Change and Food Security, GIS, Biostatistics, Research Methodology.
 - **H.S.C (Higher Secondary Certificate)**
   - Birsreshtha Munshi Abdur Rouf Public College, Dhaka, Bangladesh
   - Duration: 2018 – 2019
