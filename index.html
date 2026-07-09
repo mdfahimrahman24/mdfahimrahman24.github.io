@@ -783,7 +783,7 @@
         }
 
         if (sliderImgs.length > 0) {
-            setInterval(nextSlide, 5000); // Change image every 5 seconds
+            setInterval(nextSlide, 3000); // Change image every 3 seconds (faster)
         }
 
         // Certificate Slider Logic
@@ -819,7 +819,7 @@
             updateCertSlider();
         }
 
-        setInterval(nextCert, 3000); // 3 second auto-slide
+        setInterval(nextCert, 2000); // 2 second auto-slide (faster)
 
         // Album Slider Logic
         const albumSlider = document.getElementById('album-slider');
@@ -854,7 +854,7 @@
             updateAlbumSlider();
         }
 
-        setInterval(nextAlbum, 4000); // 4 second auto-slide
+        setInterval(nextAlbum, 2500); // 2.5 second auto-slide (faster)
 
         // Mobile Menu Toggle
         const btn = document.getElementById('mobile-menu-button');
