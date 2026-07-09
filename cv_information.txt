@@ -181,12 +181,8 @@
    - Email: msislam@swe.ku.ac.bd
    - Faculty Profile: https://ku.ac.bd/discipline/swe/faculty/msislamku
    - Relationship: Academic (thesis) Supervisor
-2. **Md. Sadiqul Amin**
+2. **Associate Professor Md. Sadiqul Amin**
    - Associate Professor, Soil, Water and Environment Discipline, Khulna University
-   - Email: sadiq@swe.ku.ac.bd
-   - Faculty Profile: https://ku.ac.bd/discipline/swe/faculty/sadiq
-   - Relationship: Course Teacher
-r and Environment Discipline, Khulna University
    - Email: sadiq@swe.ku.ac.bd
    - Faculty Profile: https://ku.ac.bd/discipline/swe/faculty/sadiq
    - Relationship: Course Teacher
