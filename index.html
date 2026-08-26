@@ -841,7 +841,86 @@
             <!-- LinkedIn Profile Card Container -->
             <div class="bg-white rounded-3xl p-6 sm:p-10 shadow-sm border border-sage/15 divide-y divide-gray-100">
                 
-                <!-- Item 1: TEDx -->
+                <!-- Item 1: Storytelling (Macquarie / Coursera) -->
+                <div class="py-6 first:pt-0 last:pb-0 flex flex-col sm:flex-row sm:items-start justify-between gap-4 group">
+                    <div class="flex items-start gap-4">
+                        <div class="w-12 h-12 rounded-xl bg-gray-50 border border-gray-200 flex items-center justify-center p-1.5 shrink-0 shadow-xs group-hover:border-sage/50 transition-colors">
+                            <img src="logo/250px-Logotype_of_Macquarie_University.svg.png" alt="Macquarie University Logo" class="w-full h-full object-contain">
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-gray-900 text-base sm:text-lg leading-snug group-hover:text-moss transition-colors">
+                                Storytelling and influencing: Communicate with impact
+                            </h3>
+                            <p class="text-sm font-medium text-gray-700 mt-0.5">
+                                <a href="https://coursera.org/verify/ECVC4HVE93L3" target="_blank" class="hover:text-sage hover:underline transition-colors inline-flex items-center gap-1">Macquarie University &middot; Coursera <i class="fas fa-external-link-alt text-[9px] opacity-60"></i></a>
+                            </p>
+                            <p class="text-xs text-gray-500 mt-1 flex items-center gap-1.5">
+                                <span>Issued Aug 5, 2026</span>
+                                <span>&middot;</span>
+                                <span class="text-moss font-medium">Credential ID: ECVC4HVE93L3</span>
+                            </p>
+                            <div class="mt-2 text-xs text-gray-600 flex items-center gap-1.5 flex-wrap">
+                                <span class="font-semibold text-gray-700">Skills:</span>
+                                <span class="bg-sage/10 text-moss px-2 py-0.5 rounded font-medium">Storytelling</span>
+                                <span class="bg-sage/10 text-moss px-2 py-0.5 rounded font-medium">Executive Communication</span>
+                                <span class="bg-sage/10 text-moss px-2 py-0.5 rounded font-medium">Influencing</span>
+                                <span class="bg-sage/10 text-moss px-2 py-0.5 rounded font-medium">Stakeholder Management</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex sm:flex-col items-center sm:items-end justify-between gap-2.5 shrink-0 pl-16 sm:pl-0">
+                        <button onclick="openCertModal(0)" class="inline-flex items-center gap-1.5 px-4 py-1.5 text-xs font-semibold text-gray-700 bg-white hover:bg-gray-50 border border-gray-300 hover:border-moss hover:text-moss rounded-full transition-all shadow-xs">
+                            Show credential <i class="fas fa-external-link-alt text-[10px] text-gray-400"></i>
+                        </button>
+                        <div onclick="openCertModal(0)" class="relative w-20 h-14 rounded-lg overflow-hidden border border-gray-200 cursor-pointer group/thumb shadow-xs hidden sm:block">
+                            <img src="certificates/Storytelling and Influencing - Communicate with impact.jpeg" alt="Storytelling Certificate Preview" class="w-full h-full object-cover group-hover/thumb:scale-105 transition-transform duration-300">
+                            <div class="absolute inset-0 bg-black/20 opacity-0 group-hover/thumb:opacity-100 transition-opacity flex items-center justify-center text-white text-xs">
+                                <i class="fas fa-search-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 2: Sustainable Architecture (Udemy) -->
+                <div class="py-6 first:pt-0 last:pb-0 flex flex-col sm:flex-row sm:items-start justify-between gap-4 group">
+                    <div class="flex items-start gap-4">
+                        <div class="w-12 h-12 rounded-xl bg-purple-50 border border-purple-200 flex items-center justify-center shrink-0 shadow-xs text-purple-700 group-hover:border-purple-400 transition-colors font-bold text-lg">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-gray-900 text-base sm:text-lg leading-snug group-hover:text-moss transition-colors">
+                                Sustainable Architecture & Building Design
+                            </h3>
+                            <p class="text-sm font-medium text-gray-700 mt-0.5">
+                                <a href="https://ude.my/UC-82dbde06-8d55-4184-9744-b7eb350422ce" target="_blank" class="hover:text-sage hover:underline transition-colors inline-flex items-center gap-1">Udemy Online Learning <i class="fas fa-external-link-alt text-[9px] opacity-60"></i></a>
+                            </p>
+                            <p class="text-xs text-gray-500 mt-1 flex items-center gap-1.5">
+                                <span>Issued Sep 24, 2025</span>
+                                <span>&middot;</span>
+                                <span class="text-moss font-medium">Credential ID: UC-82dbde06</span>
+                            </p>
+                            <div class="mt-2 text-xs text-gray-600 flex items-center gap-1.5 flex-wrap">
+                                <span class="font-semibold text-gray-700">Skills:</span>
+                                <span class="bg-sage/10 text-moss px-2 py-0.5 rounded font-medium">Sustainable Building Design</span>
+                                <span class="bg-sage/10 text-moss px-2 py-0.5 rounded font-medium">Green Architecture</span>
+                                <span class="bg-sage/10 text-moss px-2 py-0.5 rounded font-medium">Energy Efficiency</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex sm:flex-col items-center sm:items-end justify-between gap-2.5 shrink-0 pl-16 sm:pl-0">
+                        <button onclick="openCertModal(1)" class="inline-flex items-center gap-1.5 px-4 py-1.5 text-xs font-semibold text-gray-700 bg-white hover:bg-gray-50 border border-gray-300 hover:border-moss hover:text-moss rounded-full transition-all shadow-xs">
+                            Show credential <i class="fas fa-external-link-alt text-[10px] text-gray-400"></i>
+                        </button>
+                        <div onclick="openCertModal(1)" class="relative w-20 h-14 rounded-lg overflow-hidden border border-gray-200 cursor-pointer group/thumb shadow-xs hidden sm:block">
+                            <img src="certificates/Sustainable Architecture and Building Design.jpeg" alt="Sustainable Architecture Certificate Preview" class="w-full h-full object-cover group-hover/thumb:scale-105 transition-transform duration-300">
+                            <div class="absolute inset-0 bg-black/20 opacity-0 group-hover/thumb:opacity-100 transition-opacity flex items-center justify-center text-white text-xs">
+                                <i class="fas fa-search-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 3: TEDx -->
                 <div class="py-6 first:pt-0 last:pb-0 flex flex-col sm:flex-row sm:items-start justify-between gap-4 group">
                     <div class="flex items-start gap-4">
                         <div class="w-12 h-12 rounded-xl bg-red-50 border border-red-100 flex items-center justify-center p-2 shrink-0 shadow-xs group-hover:border-red-300 transition-colors">
@@ -869,10 +948,10 @@
                         </div>
                     </div>
                     <div class="flex sm:flex-col items-center sm:items-end justify-between gap-2.5 shrink-0 pl-16 sm:pl-0">
-                        <button onclick="openCertModal(0)" class="inline-flex items-center gap-1.5 px-4 py-1.5 text-xs font-semibold text-gray-700 bg-white hover:bg-gray-50 border border-gray-300 hover:border-moss hover:text-moss rounded-full transition-all shadow-xs">
+                        <button onclick="openCertModal(2)" class="inline-flex items-center gap-1.5 px-4 py-1.5 text-xs font-semibold text-gray-700 bg-white hover:bg-gray-50 border border-gray-300 hover:border-moss hover:text-moss rounded-full transition-all shadow-xs">
                             Show credential <i class="fas fa-external-link-alt text-[10px] text-gray-400"></i>
                         </button>
-                        <div onclick="openCertModal(0)" class="relative w-20 h-14 rounded-lg overflow-hidden border border-gray-200 cursor-pointer group/thumb shadow-xs hidden sm:block">
+                        <div onclick="openCertModal(2)" class="relative w-20 h-14 rounded-lg overflow-hidden border border-gray-200 cursor-pointer group/thumb shadow-xs hidden sm:block">
                             <img src="certificates/Fahim.jpg" alt="TEDx Certificate Preview" class="w-full h-full object-cover group-hover/thumb:scale-105 transition-transform duration-300">
                             <div class="absolute inset-0 bg-black/20 opacity-0 group-hover/thumb:opacity-100 transition-opacity flex items-center justify-center text-white text-xs">
                                 <i class="fas fa-search-plus"></i>
@@ -881,7 +960,7 @@
                     </div>
                 </div>
 
-                <!-- Item 2: PEDON Leadership -->
+                <!-- Item 4: PEDON Leadership -->
                 <div class="py-6 first:pt-0 last:pb-0 flex flex-col sm:flex-row sm:items-start justify-between gap-4 group">
                     <div class="flex items-start gap-4">
                         <div class="w-12 h-12 rounded-xl bg-gray-50 border border-gray-200 flex items-center justify-center p-1.5 shrink-0 shadow-xs group-hover:border-sage/50 transition-colors">
@@ -908,10 +987,10 @@
                         </div>
                     </div>
                     <div class="flex sm:flex-col items-center sm:items-end justify-between gap-2.5 shrink-0 pl-16 sm:pl-0">
-                        <button onclick="openCertModal(1)" class="inline-flex items-center gap-1.5 px-4 py-1.5 text-xs font-semibold text-gray-700 bg-white hover:bg-gray-50 border border-gray-300 hover:border-moss hover:text-moss rounded-full transition-all shadow-xs">
+                        <button onclick="openCertModal(3)" class="inline-flex items-center gap-1.5 px-4 py-1.5 text-xs font-semibold text-gray-700 bg-white hover:bg-gray-50 border border-gray-300 hover:border-moss hover:text-moss rounded-full transition-all shadow-xs">
                             Show credential <i class="fas fa-external-link-alt text-[10px] text-gray-400"></i>
                         </button>
-                        <div onclick="openCertModal(1)" class="relative w-20 h-14 rounded-lg overflow-hidden border border-gray-200 cursor-pointer group/thumb shadow-xs hidden sm:block">
+                        <div onclick="openCertModal(3)" class="relative w-20 h-14 rounded-lg overflow-hidden border border-gray-200 cursor-pointer group/thumb shadow-xs hidden sm:block">
                             <img src="certificates/activities-4.jpg" alt="PEDON Certificate Preview" class="w-full h-full object-cover group-hover/thumb:scale-105 transition-transform duration-300">
                             <div class="absolute inset-0 bg-black/20 opacity-0 group-hover/thumb:opacity-100 transition-opacity flex items-center justify-center text-white text-xs">
                                 <i class="fas fa-search-plus"></i>
@@ -920,7 +999,7 @@
                     </div>
                 </div>
 
-                <!-- Item 3: Climate Change Seminar -->
+                <!-- Item 5: Climate Change Seminar -->
                 <div class="py-6 first:pt-0 last:pb-0 flex flex-col sm:flex-row sm:items-start justify-between gap-4 group">
                     <div class="flex items-start gap-4">
                         <div class="w-12 h-12 rounded-xl bg-gray-50 border border-gray-200 flex items-center justify-center p-1.5 shrink-0 shadow-xs group-hover:border-sage/50 transition-colors">
@@ -947,10 +1026,10 @@
                         </div>
                     </div>
                     <div class="flex sm:flex-col items-center sm:items-end justify-between gap-2.5 shrink-0 pl-16 sm:pl-0">
-                        <button onclick="openCertModal(2)" class="inline-flex items-center gap-1.5 px-4 py-1.5 text-xs font-semibold text-gray-700 bg-white hover:bg-gray-50 border border-gray-300 hover:border-moss hover:text-moss rounded-full transition-all shadow-xs">
+                        <button onclick="openCertModal(4)" class="inline-flex items-center gap-1.5 px-4 py-1.5 text-xs font-semibold text-gray-700 bg-white hover:bg-gray-50 border border-gray-300 hover:border-moss hover:text-moss rounded-full transition-all shadow-xs">
                             Show credential <i class="fas fa-external-link-alt text-[10px] text-gray-400"></i>
                         </button>
-                        <div onclick="openCertModal(2)" class="relative w-20 h-14 rounded-lg overflow-hidden border border-gray-200 cursor-pointer group/thumb shadow-xs hidden sm:block">
+                        <div onclick="openCertModal(4)" class="relative w-20 h-14 rounded-lg overflow-hidden border border-gray-200 cursor-pointer group/thumb shadow-xs hidden sm:block">
                             <img src="certificates/activities-3.jpg" alt="Climate Change Seminar Certificate Preview" class="w-full h-full object-cover group-hover/thumb:scale-105 transition-transform duration-300">
                             <div class="absolute inset-0 bg-black/20 opacity-0 group-hover/thumb:opacity-100 transition-opacity flex items-center justify-center text-white text-xs">
                                 <i class="fas fa-search-plus"></i>
@@ -959,7 +1038,7 @@
                     </div>
                 </div>
 
-                <!-- Item 4: UiTM Malaysia Water Webinar -->
+                <!-- Item 6: UiTM Malaysia Water Webinar -->
                 <div class="py-6 first:pt-0 last:pb-0 flex flex-col sm:flex-row sm:items-start justify-between gap-4 group">
                     <div class="flex items-start gap-4">
                         <div class="w-12 h-12 rounded-xl bg-sky-50 border border-sky-200 flex items-center justify-center shrink-0 shadow-xs text-academic-blue group-hover:border-sky-400 transition-colors">
@@ -986,10 +1065,10 @@
                         </div>
                     </div>
                     <div class="flex sm:flex-col items-center sm:items-end justify-between gap-2.5 shrink-0 pl-16 sm:pl-0">
-                        <button onclick="openCertModal(3)" class="inline-flex items-center gap-1.5 px-4 py-1.5 text-xs font-semibold text-gray-700 bg-white hover:bg-gray-50 border border-gray-300 hover:border-moss hover:text-moss rounded-full transition-all shadow-xs">
+                        <button onclick="openCertModal(5)" class="inline-flex items-center gap-1.5 px-4 py-1.5 text-xs font-semibold text-gray-700 bg-white hover:bg-gray-50 border border-gray-300 hover:border-moss hover:text-moss rounded-full transition-all shadow-xs">
                             Show credential <i class="fas fa-external-link-alt text-[10px] text-gray-400"></i>
                         </button>
-                        <div onclick="openCertModal(3)" class="relative w-20 h-14 rounded-lg overflow-hidden border border-gray-200 cursor-pointer group/thumb shadow-xs hidden sm:block">
+                        <div onclick="openCertModal(5)" class="relative w-20 h-14 rounded-lg overflow-hidden border border-gray-200 cursor-pointer group/thumb shadow-xs hidden sm:block">
                             <img src="certificates/activities-5.jpg" alt="UiTM Webinar Certificate Preview" class="w-full h-full object-cover group-hover/thumb:scale-105 transition-transform duration-300">
                             <div class="absolute inset-0 bg-black/20 opacity-0 group-hover/thumb:opacity-100 transition-opacity flex items-center justify-center text-white text-xs">
                                 <i class="fas fa-search-plus"></i>
@@ -998,7 +1077,7 @@
                     </div>
                 </div>
 
-                <!-- Item 5: SDGs Green Voice -->
+                <!-- Item 7: SDGs Green Voice -->
                 <div class="py-6 first:pt-0 last:pb-0 flex flex-col sm:flex-row sm:items-start justify-between gap-4 group">
                     <div class="flex items-start gap-4">
                         <div class="w-12 h-12 rounded-xl bg-gray-50 border border-gray-200 flex items-center justify-center p-1.5 shrink-0 shadow-xs group-hover:border-sage/50 transition-colors">
@@ -1025,10 +1104,10 @@
                         </div>
                     </div>
                     <div class="flex sm:flex-col items-center sm:items-end justify-between gap-2.5 shrink-0 pl-16 sm:pl-0">
-                        <button onclick="openCertModal(4)" class="inline-flex items-center gap-1.5 px-4 py-1.5 text-xs font-semibold text-gray-700 bg-white hover:bg-gray-50 border border-gray-300 hover:border-moss hover:text-moss rounded-full transition-all shadow-xs">
+                        <button onclick="openCertModal(6)" class="inline-flex items-center gap-1.5 px-4 py-1.5 text-xs font-semibold text-gray-700 bg-white hover:bg-gray-50 border border-gray-300 hover:border-moss hover:text-moss rounded-full transition-all shadow-xs">
                             Show credential <i class="fas fa-external-link-alt text-[10px] text-gray-400"></i>
                         </button>
-                        <div onclick="openCertModal(4)" class="relative w-20 h-14 rounded-lg overflow-hidden border border-gray-200 cursor-pointer group/thumb shadow-xs hidden sm:block">
+                        <div onclick="openCertModal(6)" class="relative w-20 h-14 rounded-lg overflow-hidden border border-gray-200 cursor-pointer group/thumb shadow-xs hidden sm:block">
                             <img src="certificates/activities-0.jpg" alt="SDGs Certificate Preview" class="w-full h-full object-cover group-hover/thumb:scale-105 transition-transform duration-300">
                             <div class="absolute inset-0 bg-black/20 opacity-0 group-hover/thumb:opacity-100 transition-opacity flex items-center justify-center text-white text-xs">
                                 <i class="fas fa-search-plus"></i>
@@ -1037,7 +1116,7 @@
                     </div>
                 </div>
 
-                <!-- Item 6: Rotaract Rising Star -->
+                <!-- Item 8: Rotaract Rising Star -->
                 <div class="py-6 first:pt-0 last:pb-0 flex flex-col sm:flex-row sm:items-start justify-between gap-4 group">
                     <div class="flex items-start gap-4">
                         <div class="w-12 h-12 rounded-xl bg-amber-50 border border-amber-200 flex items-center justify-center shrink-0 shadow-xs text-amber-600 group-hover:border-amber-400 transition-colors">
@@ -1064,10 +1143,10 @@
                         </div>
                     </div>
                     <div class="flex sm:flex-col items-center sm:items-end justify-between gap-2.5 shrink-0 pl-16 sm:pl-0">
-                        <button onclick="openCertModal(5)" class="inline-flex items-center gap-1.5 px-4 py-1.5 text-xs font-semibold text-gray-700 bg-white hover:bg-gray-50 border border-gray-300 hover:border-moss hover:text-moss rounded-full transition-all shadow-xs">
+                        <button onclick="openCertModal(7)" class="inline-flex items-center gap-1.5 px-4 py-1.5 text-xs font-semibold text-gray-700 bg-white hover:bg-gray-50 border border-gray-300 hover:border-moss hover:text-moss rounded-full transition-all shadow-xs">
                             Show credential <i class="fas fa-external-link-alt text-[10px] text-gray-400"></i>
                         </button>
-                        <div onclick="openCertModal(5)" class="relative w-20 h-14 rounded-lg overflow-hidden border border-gray-200 cursor-pointer group/thumb shadow-xs hidden sm:block">
+                        <div onclick="openCertModal(7)" class="relative w-20 h-14 rounded-lg overflow-hidden border border-gray-200 cursor-pointer group/thumb shadow-xs hidden sm:block">
                             <img src="certificates/activities-2.jpg" alt="Rising Star Certificate Preview" class="w-full h-full object-cover group-hover/thumb:scale-105 transition-transform duration-300">
                             <div class="absolute inset-0 bg-black/20 opacity-0 group-hover/thumb:opacity-100 transition-opacity flex items-center justify-center text-white text-xs">
                                 <i class="fas fa-search-plus"></i>
@@ -1076,7 +1155,7 @@
                     </div>
                 </div>
 
-                <!-- Item 7: Soil Olympiad -->
+                <!-- Item 9: Soil Olympiad -->
                 <div class="py-6 first:pt-0 last:pb-0 flex flex-col sm:flex-row sm:items-start justify-between gap-4 group">
                     <div class="flex items-start gap-4">
                         <div class="w-12 h-12 rounded-xl bg-emerald-50 border border-emerald-200 flex items-center justify-center shrink-0 shadow-xs text-emerald-700 group-hover:border-emerald-400 transition-colors">
@@ -1103,10 +1182,10 @@
                         </div>
                     </div>
                     <div class="flex sm:flex-col items-center sm:items-end justify-between gap-2.5 shrink-0 pl-16 sm:pl-0">
-                        <button onclick="openCertModal(6)" class="inline-flex items-center gap-1.5 px-4 py-1.5 text-xs font-semibold text-gray-700 bg-white hover:bg-gray-50 border border-gray-300 hover:border-moss hover:text-moss rounded-full transition-all shadow-xs">
+                        <button onclick="openCertModal(8)" class="inline-flex items-center gap-1.5 px-4 py-1.5 text-xs font-semibold text-gray-700 bg-white hover:bg-gray-50 border border-gray-300 hover:border-moss hover:text-moss rounded-full transition-all shadow-xs">
                             Show credential <i class="fas fa-external-link-alt text-[10px] text-gray-400"></i>
                         </button>
-                        <div onclick="openCertModal(6)" class="relative w-20 h-14 rounded-lg overflow-hidden border border-gray-200 cursor-pointer group/thumb shadow-xs hidden sm:block">
+                        <div onclick="openCertModal(8)" class="relative w-20 h-14 rounded-lg overflow-hidden border border-gray-200 cursor-pointer group/thumb shadow-xs hidden sm:block">
                             <img src="certificates/activities-1.jpg" alt="Soil Olympiad Certificate Preview" class="w-full h-full object-cover group-hover/thumb:scale-105 transition-transform duration-300">
                             <div class="absolute inset-0 bg-black/20 opacity-0 group-hover/thumb:opacity-100 transition-opacity flex items-center justify-center text-white text-xs">
                                 <i class="fas fa-search-plus"></i>
@@ -1115,40 +1194,7 @@
                     </div>
                 </div>
 
-                <!-- Item 8: Udemy Architecture -->
-                <div class="py-6 first:pt-0 last:pb-0 flex flex-col sm:flex-row sm:items-start justify-between gap-4 group">
-                    <div class="flex items-start gap-4">
-                        <div class="w-12 h-12 rounded-xl bg-purple-50 border border-purple-200 flex items-center justify-center shrink-0 shadow-xs text-purple-700 group-hover:border-purple-400 transition-colors">
-                            <i class="fas fa-graduation-cap text-xl"></i>
-                        </div>
-                        <div>
-                            <h3 class="font-bold text-gray-900 text-base sm:text-lg leading-snug group-hover:text-moss transition-colors">
-                                Sustainable Architecture and Building Design
-                            </h3>
-                            <p class="text-sm font-medium text-gray-700 mt-0.5">
-                                Udemy Online Learning
-                            </p>
-                            <p class="text-xs text-gray-500 mt-1 flex items-center gap-1.5">
-                                <span>Course Certification</span>
-                                <span>&middot;</span>
-                                <span class="text-moss font-medium">No Expiration Date</span>
-                            </p>
-                            <div class="mt-2 text-xs text-gray-600 flex items-center gap-1.5 flex-wrap">
-                                <span class="font-semibold text-gray-700">Skills:</span>
-                                <span class="bg-sage/10 text-moss px-2 py-0.5 rounded font-medium">Sustainable Building Design</span>
-                                <span class="bg-sage/10 text-moss px-2 py-0.5 rounded font-medium">Energy Efficiency</span>
-                                <span class="bg-sage/10 text-moss px-2 py-0.5 rounded font-medium">Green Architecture</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="flex items-center shrink-0 pl-16 sm:pl-0">
-                        <span class="inline-flex items-center gap-1.5 px-3 py-1 bg-gray-50 border border-gray-200 rounded-full text-xs font-medium text-gray-600">
-                            <i class="fas fa-check-circle text-moss text-xs"></i> Completed
-                        </span>
-                    </div>
-                </div>
-
-                <!-- Item 9: Licences & Australian Work Rights -->
+                <!-- Item 10: Licences & Australian Work Rights -->
                 <div class="py-6 first:pt-0 last:pb-0 flex flex-col sm:flex-row sm:items-start justify-between gap-4 group">
                     <div class="flex items-start gap-4">
                         <div class="w-12 h-12 rounded-xl bg-blue-50 border border-blue-200 flex items-center justify-center shrink-0 shadow-xs text-academic-blue group-hover:border-blue-400 transition-colors">
@@ -1200,6 +1246,9 @@
                     </div>
                 </div>
                 <div class="flex items-center gap-2 shrink-0">
+                    <a id="modal-cert-verify-link" href="#" target="_blank" class="hidden px-2.5 py-1 bg-moss/10 text-moss hover:bg-moss/20 rounded-lg text-xs font-semibold items-center gap-1 transition-colors">
+                        <i class="fas fa-shield-alt text-[10px]"></i> Verify
+                    </a>
                     <a id="modal-cert-download" href="#" target="_blank" class="p-2 text-gray-500 hover:text-moss hover:bg-gray-100 rounded-lg transition-colors text-sm inline-flex items-center gap-1" title="Open Full Size">
                         <i class="fas fa-external-link-alt"></i>
                     </a>
@@ -1327,6 +1376,22 @@
         // Licenses & Certifications Lightbox Modal Logic
         const certData = [
             {
+                title: "Storytelling and influencing: Communicate with impact",
+                issuer: "Macquarie University · Coursera",
+                date: "Issued August 5, 2026",
+                skills: "Storytelling · Executive Communication · Influencing · Stakeholder Management",
+                image: "certificates/Storytelling and Influencing - Communicate with impact.jpeg",
+                verifyUrl: "https://coursera.org/verify/ECVC4HVE93L3"
+            },
+            {
+                title: "Sustainable Architecture & Building Design",
+                issuer: "Udemy Online Learning",
+                date: "Issued September 24, 2025",
+                skills: "Sustainable Building Design · Green Architecture · Energy Efficiency",
+                image: "certificates/Sustainable Architecture and Building Design.jpeg",
+                verifyUrl: "https://ude.my/UC-82dbde06-8d55-4184-9744-b7eb350422ce"
+            },
+            {
                 title: "Certificate of Appreciation – Head of Promotion Team",
                 issuer: "TEDx Khulna University",
                 date: "Issued November 2024",
@@ -1386,6 +1451,7 @@
         const modalCertCounter = document.getElementById('modal-cert-counter');
         const modalCertImg = document.getElementById('modal-cert-img');
         const modalCertDownload = document.getElementById('modal-cert-download');
+        const modalCertVerifyLink = document.getElementById('modal-cert-verify-link');
 
         function openCertModal(index) {
             currentCertModalIndex = index;
@@ -1409,6 +1475,16 @@
             modalCertImg.src = cert.image;
             modalCertImg.alt = cert.title;
             modalCertDownload.href = cert.image;
+            if (modalCertVerifyLink) {
+                if (cert.verifyUrl) {
+                    modalCertVerifyLink.href = cert.verifyUrl;
+                    modalCertVerifyLink.classList.remove('hidden');
+                    modalCertVerifyLink.classList.add('inline-flex');
+                } else {
+                    modalCertVerifyLink.classList.add('hidden');
+                    modalCertVerifyLink.classList.remove('inline-flex');
+                }
+            }
         }
 
         function closeCertModal() {
