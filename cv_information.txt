@@ -124,6 +124,17 @@
   - Group Field Project | Field Methods in Environmental Science
 - **Plastic and Microplastic Waste Management in NSW**
   - Literature Review | Australian Environmental Futures
+- **Integrated Assessment of Stream Health in the Upper Blue Mountains**
+  - Field Investigation | Science in Environmental Management
+- **Ballina's Changing Climate: Future Climate Risk Assessment**
+  - Climate Risk Assessment | Climate Change and Adaptation
+- **Climate Change Adaptation Strategy for Ballina Region**
+  - Group Project | Climate Change, Energy & Our Future
+- **Historical Data Deep Dive: Long-Term Trends in Freshwater Catchment Health across Hornsby Shire**
+  - A comparative assessment of the Berowra Creek and Cowan Creek catchments
+  - Group Consultancy Report | Sustainability Consultancy Work Practice (Client: Hornsby Shire Council)
+- **Newcastle Neighbourhood Sustainability Index Assessment**
+  - Urban Assessment Model & Computational Framework | Sustainable Cities
 
 ### Undergraduate Research (Khulna University)
 - **Undergraduate Research Thesis:** "Effects of Two-year Organic Manure and Vegetative Cover Practice on Soil Fertility and Aggregate Stability"
