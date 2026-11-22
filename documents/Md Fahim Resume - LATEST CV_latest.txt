@@ -97,6 +97,10 @@ SELECTED ENVIRONMENTAL CONSULTING & RESEARCH PROJECTS
 * Plastic and Microplastic Waste Management in NSW:
   Literature Review | Australian Environmental Futures
 
+* Mangrove Dieback Monitoring in the Hawkesbury River Estuary:
+  Using Remote Sensing and GIS following July 2022 Major Flood Event
+  Group Scientific Report | Environmental Applications of GIS and Remote Sensing (ENVS8353)
+
 * Hydrologic data collection and field water balance interpretation:
   A field study. Tasks - estimating different hydrologic components and their
   functions, data collection and interpretation; construction and interpretation

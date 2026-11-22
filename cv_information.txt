@@ -135,6 +135,9 @@
   - Group Consultancy Report | Sustainability Consultancy Work Practice (Client: Hornsby Shire Council)
 - **Newcastle Neighbourhood Sustainability Index Assessment**
   - Urban Assessment Model & Computational Framework | Sustainable Cities
+- **Mangrove Dieback Monitoring in the Hawkesbury River Estuary**
+  - Using Remote Sensing and GIS following July 2022 Major Flood Event
+  - Group Scientific Report | Environmental Applications of GIS and Remote Sensing (ENVS8353)
 
 ### Undergraduate Research (Khulna University)
 - **Undergraduate Research Thesis:** "Effects of Two-year Organic Manure and Vegetative Cover Practice on Soil Fertility and Aggregate Stability"
